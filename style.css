@@ -31,14 +31,18 @@ i{
     color: white;
 }
 .card{
-    position: absolute;
+    position: relative;
     width: calc((100% - 30px) / 7);
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 5px;
 }
 .label{
     background-color: rgba(0, 0, 0, 0,5);
     color: white;
     display: block;
-    position: relative;
+    position: absolute;
     left: 0;
     bottom: 20px;
     width: 40px;
