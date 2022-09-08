@@ -14,6 +14,8 @@ header{
 }
 footer{
     height: 100px;
+    background-color: rgb(34, 34, 34);
+    color: white;
 
 }
 .Speaker{
@@ -36,6 +38,7 @@ footer{
 }
 i{
     color: white;
+    
 }
 .card{
     position: relative;
@@ -44,6 +47,7 @@ i{
     width: calc((100% - 35px) / 7);
     background-color: gray;
     margin-top: 70px;
+    margin-bottom: 50px;
 }
 .label{
     background-color: rgba(0, 0, 0, 0,5);
@@ -55,4 +59,20 @@ i{
     padding: 3px;
     display: flex;
     flex-flow: row nowrap;
+}
+.bottoni{
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.bottoni1{
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
