@@ -22,6 +22,9 @@ footer{
 .container{
     max-width: 100vh;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    width: calc((100% - 30px) / 7);
 }
 .green
 {
@@ -32,10 +35,7 @@ i{
 }
 .card{
     position: relative;
-    width: calc((100% - 30px) / 7);
     height: 200px;
-    display: flex;
-    flex-direction: row;
     margin-right: 5px;
 }
 .label{
