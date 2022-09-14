@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+.flexaround{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 body{
     background-color: black;
 }
