@@ -45,7 +45,7 @@ i{
     height: 200px;
     margin-right: 5px;
     width: calc((100% - 35px) / 7);
-    background-color: gray;
+    background-color: rgb(34, 34, 34);
     margin-top: 70px;
     margin-bottom: 50px;
 }
@@ -62,17 +62,27 @@ i{
 }
 .bottoni{
     width: 20px;
-    height: 20px;
-    padding: 20px;
-    margin: 20px;
+    height: 20px;   
     display: flex;
     flex-direction: row;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20px;
 }
-.bottoni1{
-    width: 20px;
-    height: 20px;
-    padding: 20px;
+.icone{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    /* justify-content: space-around; */
+    
+}
+.btn{
+    color: red;
+    background-color: rgb(71, 71, 71);
+    height: 50px;
+    width: 70px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 8px;
+}
+.dist{
+    padding: 0 10px;
 }
